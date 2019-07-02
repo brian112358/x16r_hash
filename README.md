@@ -12,7 +12,7 @@ sudo apt-get install python-dev
 To install this module, clone this repository and run:
 
 ```
-python setup.py install
+sudo python setup.py install --user
 ```
 
 You can verify the installation by running:
