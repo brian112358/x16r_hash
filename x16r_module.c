@@ -1,6 +1,7 @@
+#define PY_SSIZE_T_CLEAN
+
 #include <Python.h>
 
-#define PY_SSIZE_T_CLEAN
 #include "x16r.h"
 
 static PyObject *x16r_getpowhash(PyObject *self, PyObject *args)
